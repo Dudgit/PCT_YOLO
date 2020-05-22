@@ -1,0 +1,40 @@
+{
+    "model" : {
+        "min_input_size":       288,
+        "max_input_size":       448,
+        "anchors":              [128,166, 168,317, 206,241, 223,373, 279,389, 286,302, 339,376, 374,274, 388,389],
+        "labels":               ["hit"]
+    },
+
+    "train": {
+        "train_image_folder":   "images/",
+        "train_annot_folder":   "annotations/",
+        "cache_name":           "raccoon_train.pkl",
+
+        "train_times":          3,
+        "batch_size":           50,
+        "learning_rate":        1e-4,
+        "nb_epochs":            1,
+        "warmup_epochs":        1,
+        "ignore_thresh":        0.5,
+        "gpus":                 "1",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "log_raccoon",
+        "saved_weights_name":   "raccoon.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "valid_img",
+        "valid_annot_folder":   "valid_an",
+        "cache_name":           "raccoon_train.pkl",
+
+        "valid_times":          1
+    }
+}
