@@ -66,7 +66,12 @@ def create_training_instances(
         print('No labels are provided. Train on all seen labels.')
         print(train_labels)
         labels = train_labels.keys()
-
+    #max_box_per_image = []
+    #for inst in(train_ints + valid_ints):
+       # if(train_ints+valid_ints !=0):
+        #    max_box_per_image.append(len(inst['object'])
+        #else:
+         #   max_box_per_image.append(0)
     max_box_per_image = max([len(inst['object']) for inst in (train_ints + valid_ints)])
 
     return train_ints, valid_ints, sorted(labels), max_box_per_image
