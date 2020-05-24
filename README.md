@@ -18,7 +18,7 @@ Azt is találtam, hogy talán valamiért nem fut a GPU-n a program, de ha CPU-n 
 
 A CUDA-t, illetve a cudnn-t felraktam a számítógépemre.
 
-Az általam használt GPU egy Nvidia GeForce GTX 1660
+Az általam használt GPU egy Nvidia GeForce GTX 1660, ami támogatja a videókártyán való futtatást.
 
 
 # Megjegyzés:
