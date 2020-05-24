@@ -15,8 +15,8 @@ python train.py -c config_rbc.json
 
 A kövektező hibaüzentet kapom:
 
-tensorflow.python.framework.errors_impl.UnimplementedError: Fused conv implementation does not support grouped convolutions for now.
-         [[{{node conv_81/BiasAdd}}]]
+## tensorflow.python.framework.errors_impl.UnimplementedError: Fused conv implementation does not support grouped convolutions for now.
+       ##  [[{{node conv_81/BiasAdd}}]]
 
 
 
