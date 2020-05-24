@@ -6,6 +6,16 @@ Az rbc.h5-öt
 
 A generált fileok 20 százalékát áttettem validation mappákba, de mivel 100 filenál nem enged meg többet feltölteni egyszerre a github, egyelőre ezeket még nem töltöttem fel.
 
+A config_rbc.json-t futtatom.
+
+# A hibaüzenet:
+
+Fused conv implementation does not support grouped convolutions for now.
+
+Elvileg meg kéne változtatnom a placeholder, amit nem tudok, hogy hol van.
+
+
+
 # Megjegyzés:
 A legújabb tensorflowal nem működik, mert miért lenne visszafelé kompatibilis?
 
@@ -14,4 +24,4 @@ pip install tensorflow==1.15.0
 
 parancsot.
 
-Már csak a trainelés van hátra
+
