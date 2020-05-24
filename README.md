@@ -14,14 +14,12 @@ Fused conv implementation does not support grouped convolutions for now.
 
 Elvileg meg kéne változtatnom a placeholder, amit nem tudok, hogy hol van.
 
+Azt is találtam, hogy talán valamiért nem fut a GPU-n a program, de ha CPU-n futtatom, akkor is kidobja ezt a hibaüzenetet.
+
+A CUDA-t, illetve a cudnn-t felraktam a számítógépemre.
+
+Az általam használt GPU egy Nvidia GeForce GTX 1660
 
 
 # Megjegyzés:
 A legújabb tensorflowal nem működik, mert miért lenne visszafelé kompatibilis?
-
-A futtatás előtt le kellett futtatni a :
-pip install tensorflow==1.15.0  
-
-parancsot.
-
-
