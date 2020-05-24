@@ -9,8 +9,16 @@ A generált fileok 20 százalékát áttettem validation mappákba, de mivel 100
 A config_rbc.json-t futtatom.
 
 # A hibaüzenet:
+A tanítás alatt, azaz miután lefuttatom az alábbi parancsot:
 
-Fused conv implementation does not support grouped convolutions for now.
+python train.py -c config_rbc.json
+
+A kövektező hibaüzentet kapom:
+
+tensorflow.python.framework.errors_impl.UnimplementedError: Fused conv implementation does not support grouped convolutions for now.
+         [[{{node conv_81/BiasAdd}}]]
+
+
 
 Elvileg meg kéne változtatnom a placeholder, amit nem tudok, hogy hol van.
 
