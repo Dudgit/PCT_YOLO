@@ -11,11 +11,11 @@ import multiprocessing as mp
 from lxml import etree as ET
 import pathlib
 
-xsize = 608
-ysize = 608
+xsize = 600
+ysize = 600
 mu = 4
 sigma = 3
-num = 1000
+num = 10000
 maxHits = 20
 imFolder = "images"
 anFolder = "annotations"
