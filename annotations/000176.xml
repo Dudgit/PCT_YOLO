@@ -1,0 +1,26 @@
+<annotation verified="yes">
+  <folder>images</folder>
+  <filename>hit_000176.png</filename>
+  <path>C:\Users\Bence\Diplomamunka\YOLO3\test\kettes</path>
+  <source>
+    <database>Generator script</database>
+  </source>
+  <size>
+    <width>600</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Hit</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>51.03</xmin>
+      <ymin>223.03</ymin>
+      <xmax>60.97</xmax>
+      <ymax>60.97</ymax>
+    </bndbox>
+  </object>
+</annotation>
