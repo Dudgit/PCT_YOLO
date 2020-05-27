@@ -11,7 +11,7 @@ A model tanításához:
  - Az anaconda promptot nyissuk meg
  - Vezessuk el fájlokat tartalmazó mappába
  - Futtassuk le a következő parancsot:
- ## [python train.py -c config.json ]
+ ## python train.py -c config.json 
 
 
 # Megjegyzés:
