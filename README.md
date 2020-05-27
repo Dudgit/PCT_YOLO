@@ -6,27 +6,15 @@ Az rbc.h5-öt
 
 A generált fileok 20 százalékát áttettem validation mappákba, de mivel 100 filenál nem enged meg többet feltölteni egyszerre a github, egyelőre ezeket még nem töltöttem fel.
 
-A config_rbc.json-t futtatom.
+A config.json-t futtatom.
 
-# A hibaüzenet:
-A tanítás alatt, azaz miután lefuttatom az alábbi parancsot:
-
-python train.py -c config_rbc.json
-
-A kövektező hibaüzentet kapom:
-
-## tensorflow.python.framework.errors_impl.UnimplementedError: Fused conv implementation does not support grouped convolutions for now.  [[{{node conv_81/BiasAdd}}]] 
-
-
-
-Elvileg meg kéne változtatnom a placeholder, amit nem tudok, hogy hol van.
-
-Azt is találtam, hogy talán valamiért nem fut a GPU-n a program, de ha CPU-n futtatom, akkor is kidobja ezt a hibaüzenetet.
-
-A CUDA-t, illetve a cudnn-t felraktam a számítógépemre.
-
-Az általam használt GPU egy Nvidia GeForce GTX 1660, ami támogatja a videókártyán való futtatást.
 
 
 # Megjegyzés:
 A legújabb tensorflowal nem működik, mert miért lenne visszafelé kompatibilis?
+
+Egyelőre nem engedi, hogy lefuttassam a predict.py , mivel nincs compile-ve a modell. A tanítás már megtörtént, ám lehet, hogy még tanítani fogom tovább.
+
+A modellem:
+
+https://drive.google.com/drive/folders/1_v1X4VK6on6feW1YUJ6AtCOR5hq0p2um
